@@ -1,0 +1,20 @@
+body{
+  background-color: #7FFFD4;
+  font-family: 'Amatic SC', cursive;
+  color: #00008B;
+}
+h1{
+  font-size: 75px;
+}
+.jumbotron{
+  background-color: #E0E0E0;
+}
+.btn{
+  background-color: #76EEC6;
+  font-size:50px;
+  font-color: #000000;
+}
+.desc{
+  font-size: 35px;
+}
+
