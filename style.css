@@ -6,15 +6,17 @@ body{
 h1{
   font-size: 75px;
 }
+.container{
+   margin-top: 20px;
+}
 .jumbotron{
   background-color: #E0E0E0;
 }
 .btn{
   background-color: #76EEC6;
   font-size:50px;
-  font-color: #000000;
+  color: #000;
 }
 .desc{
   font-size: 35px;
 }
-
