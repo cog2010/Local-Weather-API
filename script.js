@@ -6,6 +6,7 @@ $(document).ready(function() {
   var temp;
   var html = "";
 
+  //new api used for https
   $.getJSON("https://ipapi.co/json/", function(lldata) {
     lat = lldata.latitude;
     long = lldata.longitude;
