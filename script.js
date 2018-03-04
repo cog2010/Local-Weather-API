@@ -10,6 +10,7 @@ $(document).ready(function() {
   $.getJSON("https://ipapi.co/json/", function(lldata) {
     lat = lldata.latitude;
     long = lldata.longitude;
+    //New Open Weather API used for https
     var url = 'https://api.openweathermap.org/data/2.5/weather?lat=' + lat + '&lon=' + long + '&APPID=c68bf5c6ba0168f01ae8b1db47a489e6&units=imperial';
     $.getJSON(url, function(data) {
       html += "<img src = 'https://openweathermap.org/img/w/" + data.weather[0].icon + ".png' " + "alt='" + data.weather[0].description + "'>";
